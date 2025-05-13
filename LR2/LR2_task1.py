@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, accuracy_score
 
 # 1. Завантаження даних
-input_file = r'С:\income_data.txt'
+input_file = r'D:\income_data.txt'
 df = pd.read_csv(input_file, header=None, na_values=' ?', skipinitialspace=True)
 
 # 2. Видалення пропусків
